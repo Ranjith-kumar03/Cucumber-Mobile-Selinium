@@ -23,7 +23,7 @@ public class facebook {
 	element.sendKeys("xxxxxxxxx");
 	element =driver.findElement(By.id("loginbutton"));
 	element.click();
-	
+	System.out.println("Iam new to git hub because of me he is triggering");
 Thread.sleep(10000);
 
 driver.quit();
